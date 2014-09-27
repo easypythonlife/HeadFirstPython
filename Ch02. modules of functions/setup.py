@@ -3,7 +3,6 @@ from distutils.core import setup
 setup(
         name         = 'sijon_nester',
         version      = '1.4.0',
-        ## TODO: be sure to change these next few lines to match your details!
         py_modules   = ['sijon_nester'],
         author       = 'sijon',
         author_email = 'si.j@navercorp.com',
