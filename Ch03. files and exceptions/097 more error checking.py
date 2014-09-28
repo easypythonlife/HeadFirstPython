@@ -10,7 +10,7 @@ if os.path.exists('sketch.txt'):
             print(role, end='')
             print(' said: ', end='')
             print(line_spoken, end='')
-            
+
     data.close()
 else:
     print('The data file is missing!')
