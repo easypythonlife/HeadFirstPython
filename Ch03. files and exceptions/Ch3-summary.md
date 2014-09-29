@@ -125,3 +125,9 @@
  - Another good IDE: [PyCharm - JetBrains](http://www.jetbrains.com/pycharm/) : Community Edition
  
         Install 방법: Download 탭에 가면 각 OS 별로 Installation Instruction 링크가 있음
+        
+ - github로 source code 및 summary down받기
+ 
+        cd ~
+        git clone https://github.com/sijeon/HeadFirstPython
+        
