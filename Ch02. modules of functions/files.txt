@@ -1,3 +1,3 @@
-/Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/sijon_nester.py
-/Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/__pycache__/sijon_nester.cpython-33.pyc
-/Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/sijon_nester-1.4.0-py3.3.egg-info
+/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/nester.py
+/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/__pycache__/nester.cpython-34.pyc
+/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/nester-1.4.0-py3.4.egg-info

@@ -1,10 +1,10 @@
 from distutils.core import setup
 
 setup(
-        name         = 'sijon_nester',
+        name         = 'nester',
         version      = '1.4.0',
-        py_modules   = ['sijon_nester'],
-        author       = 'sijon',
+        py_modules   = ['nester'],
+        author       = 'sijeon',
         author_email = 'si.j@navercorp.com',
         url          = 'http://www.naver.com',
         description  = 'Test - A simple printer of nested lists',

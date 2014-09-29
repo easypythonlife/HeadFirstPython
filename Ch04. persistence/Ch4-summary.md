@@ -19,11 +19,11 @@
  
 ## print_lol()을 수정하는 게 어떨까요?
         
-## 데이터를 피클링하기
+## 데이터를 pickle하기
  
 ## dump로 저장하고 load로 읽습니다
         
-## 피클링을 이용한 범용 파일 I/O가 최고입니다!
+## pickle을 이용한 범용 파일 I/O가 최고입니다!
                                   
 ## Additional Information
         
