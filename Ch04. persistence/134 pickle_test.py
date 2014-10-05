@@ -5,7 +5,7 @@ with open('mydata.pickle', 'rb') as myrestoredata:
     a_list = pickle.load(myrestoredata) 
 """
 import pickle
-from sijon_nester import print_lol
+from nester import print_lol
 
 man = []
 other = []
@@ -37,6 +37,3 @@ try:
         other = pickle.load(other_file)
 except IOError as err:
     print('File error:' + str(err))
-
-print_lol(man)
-print_lol(other)

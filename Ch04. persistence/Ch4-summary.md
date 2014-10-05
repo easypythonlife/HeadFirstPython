@@ -36,11 +36,23 @@
  - print로 출력된 결과를 다시 python data로 불러들이기는 매우 어려움 (data를 parsing 해야 함)
  
 ## print_lol()을 수정하는 게 어떨까요?
- - data를 parsing 하기 좀 편하게 print 하는 방법
- - 실습(
+ - data를 parsing 하기 좀 편하게 print 하는 방법 (한계가 있음)
+ - 실습(print_lol): print 시에 file로 보내는 인자 추가
+ 
 ## 데이터를 pickle하기
+ - 데이터를 나중에 python으로 읽어들이기 편하게 하려면 pickle 모듈을 사용!
+ 
+        import pickle
+        
+ - 개념: 168쪽 그림 참조
  
 ## dump로 저장하고 load로 읽습니다
+ - pickle.dump(object, file_handler)
+ - object = pickle.load(file_handler)
+ - pickle.dump는 binary file로 저장 함: open 함수 호출 시, "rb" 혹은 "wb" 사용
+ - pickle의 예외처리는 pickle.PickleError 유형을 사용 함
+ - 실습(pickle_test): 앞의 예제를 pickle을 사용하여 수정
+ - 실습(An IDLE Session): 저장된 파일의 데이터 확인 하기
         
 ## pickle을 이용한 범용 파일 I/O가 최고입니다!
                                   

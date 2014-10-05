@@ -1,4 +1,3 @@
-
 import sys
 
 """This is the "nester.py" module and it provides one function called print_lol() 
@@ -29,3 +28,15 @@ def print_lol(the_list, indent=False, level=0, fh=sys.stdout):
                 for tab_stop in range(level):
                     print("\t", end='', file=fh)
             print(each_item, file=fh)
+
+# Build your distribution
+# $ python3 setup.py sdist
+
+# Install your distribution into your local copy of Python
+# $ sudo python3 setup.py install --record files.txt
+
+# Upload your code to PyPI
+# Registering (only once)
+# $ python3 setup.py register
+# Uploading modules
+# $ python3 setup.py sdist upload

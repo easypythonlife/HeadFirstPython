@@ -1,5 +1,5 @@
 import pickle
-import sijon_nester
+import nester
 
 new_man = []
 
@@ -11,6 +11,7 @@ except IOError as err:
 except pickle.PickleError as perr:
     print('Pickling error: ' + str(perr))
 
-sijon_nester.print_lol(new_man)
+nester.print_lol(new_man)
+print("==================")
 print(new_man[0])
 print(new_man[-1])
