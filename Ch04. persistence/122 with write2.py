@@ -1,4 +1,3 @@
-
 man = []
 other = []
 
@@ -28,4 +27,3 @@ try:
         print(other, file=other_file)
 except IOError as err:
     print('File error: ' + str(err))
-

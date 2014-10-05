@@ -22,8 +22,10 @@ try:
 
     print(man, file = man_file)
     print(other, file = other_file)
-except IOError as err:
-    print("File error: " + str(err))
+except IOError as err:                  # 예외 내용 상세히 알기, 예외의 상세 내용이 err에 저장되어 있음
+    print("File error: " + str(err))    # err을 str로 형변환
 finally:
-    man_file.close()
-    other_file.close()
+    if 'man_file' in locals():          # 파일이 열린 경우에만 close를 호출 함
+        man_file.close()
+    if 'other_file' in locals():        # 결국, 예외처리를 위해 "프로그램 논리 추가" 방법을 사용하고 있음
+        other_file.close()

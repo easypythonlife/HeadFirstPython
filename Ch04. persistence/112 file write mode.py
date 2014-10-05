@@ -22,11 +22,9 @@ try:
     
     print(man, file = man_file)
     print(other, file = other_file)
-    
+
+    man_file.close()
+    other_file.close()
+
 except IOError as err:
     print("File error: " + str(err))
-finally:
-    if 'man_file' in locals():
-        man_file.close()
-    if 'other_file' in locals():
-        other_file.close()
