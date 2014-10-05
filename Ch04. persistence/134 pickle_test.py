@@ -30,10 +30,3 @@ try:
         pickle.dump(other, other_file)
 except IOError as err:
     print('File error:' + str(err))
-
-try:
-    with open('man_data.txt', 'rb') as man_file, open('other_data.txt', 'rb') as other_file:
-        man = pickle.load(man_file)
-        other = pickle.load(other_file)
-except IOError as err:
-    print('File error:' + str(err))
