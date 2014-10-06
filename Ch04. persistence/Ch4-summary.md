@@ -57,4 +57,4 @@
 ## pickle을 이용한 범용 파일 I/O가 최고입니다!
                                   
 ## Additional Information
-        
+ - another good book: http://www.pythonlearn.com

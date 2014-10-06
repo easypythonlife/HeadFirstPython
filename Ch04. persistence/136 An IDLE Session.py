@@ -1,8 +1,6 @@
 import pickle
 import nester
 
-new_man = []
-
 try:
     with open('man_data.txt', 'rb') as man_file:
         new_man = pickle.load(man_file)

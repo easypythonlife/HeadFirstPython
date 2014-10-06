@@ -5,7 +5,6 @@ with open('mydata.pickle', 'rb') as myrestoredata:
     a_list = pickle.load(myrestoredata) 
 """
 import pickle
-from nester import print_lol
 
 man = []
 other = []
