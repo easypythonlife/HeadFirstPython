@@ -1,5 +1,4 @@
 import pickle
-import nester
 
 try:
     with open('man_data.txt', 'rb') as man_file:
