@@ -1,5 +1,5 @@
 # Ch4. 영속성: 파일에 데이터 저장하기
- - summarized by 전승일(2014/)
+ - summarized by 전승일(2014/10/05)
  - source code: http://www.headfirstlabs.com/books/hfpython/
  - support site: http://python.itcarlow.ie
 

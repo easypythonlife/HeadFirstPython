@@ -1,18 +1,14 @@
 with open('james.txt') as jaf:
-    data = jaf.readline()
-james = data.strip().split(',')
+    james = jaf.readline().strip().split(',')
 
 with open('julie.txt') as juf:
-    data = juf.readline()
-julie = data.strip().split(',')
+    julie = juf.readline().strip().split(',')
 
 with open('mikey.txt') as mif:
-    data = mif.readline()
-mikey = data.strip().split(',')
+    mikey = mif.readline().strip().split(',')
 
 with open('sarah.txt') as saf:
-    data = saf.readline()
-sarah = data.strip().split(',')
+    sarah = saf.readline().strip().split(',')
 
 print(james)
 print(julie)
