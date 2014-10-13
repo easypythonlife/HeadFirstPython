@@ -55,6 +55,7 @@
         float() : 0.0
         int()   : 0
         dict()  : {}
+        tuple() : ()
         
  - 집합과 리스트의 비교: 203쪽 참고
  - 실습(list comprehension with set): 집합을 사용하여 이전 프로그램 수정
