@@ -26,7 +26,8 @@ def get_coach_data(filename):
         with open(filename) as f:
             data = f.readline()
         templ = data.strip().split(',')
-        return(Athlete(templ.pop(0), templ.pop(0), templ))
+        x = Athlete(templ.pop(0), templ.pop(0), templ)
+        return(x)
     except IOError as ioerr:
         print('File error: ' + str(ioerr))
         return(None)
