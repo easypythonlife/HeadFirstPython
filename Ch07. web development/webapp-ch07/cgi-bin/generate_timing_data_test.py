@@ -1,6 +1,6 @@
 #! /usr/local/bin/python3
 
-import cgi
+#import cgi
 
 #import cgitb
 #cgitb.enable()
@@ -10,8 +10,9 @@ import yate
 
 athletes = athletemodel.get_from_store()
 
-form_data = cgi.FieldStorage()
-athlete_name = form_data['which_athlete'].value
+#form_data = cgi.FieldStorage()
+#athlete_name = form_data['which_athlete'].value
+athlete_name = "Sarah Sweeney"
 
 print(yate.start_response())
 print(yate.include_header("Coach Kelly's Timing Data"))    
